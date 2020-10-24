@@ -1,0 +1,11 @@
+target/*
+*/target/*
+*/target/classes/*
+*.class
+.DS_Store
+target-eclipse/*
+.idea/*
+*.iml
+*.log
+out/*
+logs/*
