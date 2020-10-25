@@ -10,7 +10,7 @@ import java.util.List;
  * @author chandra on 24/10/2020 14:28
  */
 
-@RequestMapping(value = "/api/v1/author")
+@RequestMapping(value = "/api/v1/app/author")
 public interface AuthorResource {
 
     @PostMapping(value = "/", consumes = MediaType.APPLICATION_JSON_VALUE)

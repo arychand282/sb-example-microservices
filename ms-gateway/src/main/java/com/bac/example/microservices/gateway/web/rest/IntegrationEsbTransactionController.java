@@ -1,4 +1,4 @@
-package com.bac.example.microservices.gateway.web.web;
+package com.bac.example.microservices.gateway.web.rest;
 
 import com.bac.example.microservices.gateway.api.IntegrationEsbTransactionResource;
 import com.bac.example.microservices.gateway.dto.BalanceInquiryRequestDto;

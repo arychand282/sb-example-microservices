@@ -36,3 +36,7 @@ ribbon:
 gateway:
   ribbon:
     listOfServers: http://localhost:8082
+    
+report:
+  ribbon:
+    listOfServers: http://localhost:8083

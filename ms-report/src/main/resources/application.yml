@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: ms-report
+
+logging:
+  level:
+    org:hibernate: DEBUG
+    org.springframework.security: debug
+    
+gateway:
+  ribbon:
+    listOfServers: http://localhost:8082

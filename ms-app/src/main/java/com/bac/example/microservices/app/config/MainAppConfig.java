@@ -12,7 +12,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
 @EnableFeignClients(basePackages = {
-        "com.bac.example.microservices.gateway.api"
+        "com.bac.example.microservices.gateway.api",
+        "com.bac.example.microservices.report.api"
 })
 @ComponentScan(basePackages = {
         "com.bac.example.microservices.app"

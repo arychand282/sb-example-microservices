@@ -12,6 +12,7 @@
 		<module>ms-gateway</module>
 		<module>ms-gateway-api</module>
 		<module>ms-report</module>
+		<module>ms-report-api</module>
 	</modules>
 	
 	<parent>

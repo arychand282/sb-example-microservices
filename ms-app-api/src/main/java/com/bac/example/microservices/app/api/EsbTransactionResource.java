@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author chandra on 24/10/2020 17:16
  */
 
-@RequestMapping(value = "/api/v1/transaction")
+@RequestMapping(value = "/api/v1/app/transaction")
 public interface EsbTransactionResource {
     
     @PostMapping(value = "/balance_inquiry", consumes = MediaType.APPLICATION_JSON_VALUE)

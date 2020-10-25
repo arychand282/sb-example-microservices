@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 
 @FeignClient(name = "gateway")
-@RequestMapping(value = "/api/v1/esb/transaction")
+@RequestMapping(value = "/api/v1/gateway/transaction")
 public interface IntegrationEsbTransactionResource {
     
     @PostMapping(value = "/balance_inquiry", consumes = MediaType.APPLICATION_JSON_VALUE)
